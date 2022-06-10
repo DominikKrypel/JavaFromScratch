@@ -40,5 +40,8 @@ public class StudentTest {
             tablica[i].podajNumerIndeksu();
             System.out.println("_______________________");
         }
+
+        String name;
+
     }
 }
