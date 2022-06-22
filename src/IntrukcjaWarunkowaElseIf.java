@@ -2,7 +2,7 @@ public class IntrukcjaWarunkowaElseIf {
 
     public static void main(String[] args) {
 
-        int number = 0;
+        int number = 2;
 
         if (number > 0){
             System.out.println("Liczba większa od zera");
