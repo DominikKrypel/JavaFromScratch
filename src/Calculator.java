@@ -1,25 +1,27 @@
-import java.util.Scanner;
-
 public class Calculator {
 
-    public static void main(String[] args) {
-        System.out.println("Proszę wprowadzić pierwszą liczbę");
-        Scanner scanner = new Scanner(System.in);
-        int firstNumber = scanner.nextInt();
+    public int addition (int firstNumber, int secondNumber) {
+        return  firstNumber + secondNumber;
+    }
 
-        System.out.println("Proszę wprowadzić drugą liczbę");
-        int secondNumber = scanner.nextInt();
-
-        int addition = firstNumber + secondNumber;
+    public void substraction (int firstNumber, int secondNumber) {
         int substraction = firstNumber - secondNumber;
-        int multiplication = firstNumber * secondNumber;
-        int division = firstNumber / secondNumber;
-        int mod = firstNumber % secondNumber;
-
-        System.out.println("Wynik dodawania " + addition);
         System.out.println("Wynik odejmowania  " + substraction);
+    }
+
+    public void multiplication (int firstNumber, int secondNumber) {
+        int multiplication = firstNumber * secondNumber;
         System.out.println("Wynik mnożenia " + multiplication);
+
+    }
+
+    public void division (int firstNumber, int secondNumber) {
+        int division = firstNumber / secondNumber;
         System.out.println("Wynik dzielenia " + division);
+    }
+
+    public void mod (int firstNumber, int secondNumber) {
+        int mod = firstNumber % secondNumber;
         System.out.println("Modulo  " + mod);
     }
 }

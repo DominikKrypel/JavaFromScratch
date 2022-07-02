@@ -2,13 +2,15 @@ public class StudentTest {
 
     public static void main(String[] args) {
 
+        String uczelnia = Student.nazwaUczelni;
+
         Student student = new Student();
         student.email = "mati@onet";
         student.imie = "Mateusz";
         student.nazwisko = "Kowalczyk";
         student.numerIndeksu = 1768594;
         student.nick = "Heyah";
-
+//        System.out.println("Uczelnia " + uczelnia);
         Student student2 = new Student();
         student2.email = "zony@onet";
         student2.imie = "Zenobiusz";
@@ -42,6 +44,8 @@ public class StudentTest {
         }
 
         String name;
+
+
 
     }
 }
