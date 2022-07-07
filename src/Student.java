@@ -22,4 +22,8 @@ public class Student {
     public void podajEmail() {
         System.out.println("Mój email to  " + email);
     }
+
+    public static void testMetodyStatycznej(){
+        System.out.println("to jest tekst z metody statycznej");
+    }
 }
