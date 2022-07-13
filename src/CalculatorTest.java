@@ -9,12 +9,7 @@ public class CalculatorTest {
 
         System.out.println("Proszę wprowadzić drugą liczbę");
         int secondNumber = scanner.nextInt();
-
-        System.out.println("Wynik dodawania " + addition);
-        System.out.println("Wynik odejmowania  " + substraction);
-        System.out.println("Wynik mnożenia " + multiplication);
-        System.out.println("Wynik dzielenia " + division);
-        System.out.println("Modulo  " + mod);
+        
         Calculator calculator = new Calculator();
         System.out.println("Test przypadku dodawania " + calculator.addition(firstNumber, secondNumber));;
         calculator.substraction(firstNumber, secondNumber);
