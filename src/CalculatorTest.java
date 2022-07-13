@@ -15,5 +15,11 @@ public class CalculatorTest {
         System.out.println("Wynik mnożenia " + multiplication);
         System.out.println("Wynik dzielenia " + division);
         System.out.println("Modulo  " + mod);
+        Calculator calculator = new Calculator();
+        System.out.println("Test przypadku dodawania " + calculator.addition(firstNumber, secondNumber));;
+        calculator.substraction(firstNumber, secondNumber);
+        calculator.multiplication(firstNumber, secondNumber);
+        calculator.division(firstNumber, secondNumber);
+        calculator.mod(firstNumber, secondNumber);
     }
 }

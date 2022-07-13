@@ -17,5 +17,4 @@ public class AgeChecker {
             System.out.println("Twój wiek pozwala na zakup alkoholu");
         }
     }
-
 }
