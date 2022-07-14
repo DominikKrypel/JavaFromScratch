@@ -2,9 +2,14 @@ public class Teatcher extends Person {
 
 
     public String name;
+    public int age;
+
+    public Teatcher(){
+    }
 
     public Teatcher(String name, int age) {
-        super(name, age);
+        this.name = name;
+        this.age = age;
     }
 
     public void playTeatching() {
@@ -20,6 +25,9 @@ public class Teatcher extends Person {
         System.out.println("Jestem z klasy podrzędnej");
     }
 
+    public void eat() {
+        System.out.println("I like snak's " + name);
+    }
 
 
 }
