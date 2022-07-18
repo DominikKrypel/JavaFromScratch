@@ -29,5 +29,10 @@ public class Teatcher extends Person {
         System.out.println("I like snak's " + name);
     }
 
+    public void walking() {
+        super.eat();
+        System.out.println("I like sitting  ");
+    }
+
 
 }
