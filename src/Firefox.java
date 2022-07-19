@@ -1,4 +1,4 @@
-public class Firefox implements  Webdriver {
+public class Firefox implements Webdriver {
 
 
     @Override
